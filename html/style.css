@@ -1,0 +1,83 @@
+body {
+    background: #eff1f5;
+    font-family: 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 22px;
+    color: rgb(87, 73, 51);
+    line-height: 1.42857;
+    margin: 0 auto;
+    padding: 0;
+    -webkit-text-size-adjust: 100%;
+}
+
+#wrapper {
+    margin: 0 auto;
+    padding: 0 auto;
+    width: 100%;
+    text-align:center;
+}
+
+.mainArea, .header {
+    margin: 0 auto;
+    width: 640px;
+    padding: 0px;
+    color: #000;
+    text-align: left;
+    position: relative;
+}
+.header p {
+    text-align: center;
+}
+.footer {
+    clear: both;
+}
+.footer p {
+    font-size: 16px;
+}
+
+h2 {
+    font-size: 28px;
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+}
+
+#names div {
+    float: left;
+    background: -moz-linear-gradient(left, #ffc09a, #ffaeac);
+    background: -webkit-gradient(linear, left top, right top, from(#ffc09a), to(#ffaeac));
+    border: 2px solid #f00;
+    font-size: 26px;
+    margin: 5px 10px;
+    padding: 10px 5px;
+    width: 100px;
+    text-align: center;
+}
+
+#names div a, #musicList div a {
+    text-decoration: underline;
+    color: rgb(53, 43, 43);
+}
+
+#musicList {
+    clear: both;
+    position: absolute;
+    z-index: 100;
+    background: #fff;
+    border: 2px solid #f00;
+    margin: 5px;
+    width: 630px;
+    display: none;
+}
+
+#musicList div {
+    background: -moz-linear-gradient(left, #ffc09a, #ffaeac);
+    background: -webkit-gradient(linear, left top, right top, from(#ffc09a), to(#ffaeac));
+    border: 2px solid #f00;
+    font-size: 26px;
+    margin: 5px 15px;
+    padding: 5px 20px 5px 35px;
+    width: 600px;
+    word-wrap: break-word;
+}
